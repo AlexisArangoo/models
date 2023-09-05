@@ -5,7 +5,7 @@ import 'dotenv/config'
 
 User;
 
-const POST = process.env.DB_PORT ?? 8000;
+const POST = process.env.PORT ?? 8000;
 
 db.authenticate()
   .then(() => {
